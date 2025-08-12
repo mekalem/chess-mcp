@@ -77,5 +77,15 @@ in our .toml file, since we built the chess scrip, we don't have to specifiy ser
 4. check with questions in claude
 "compare the ratings between hikaru and anthony levin"
 5. deploy to github
+6. Install
+``` json
+"Chess Server": {
+"command": "uv",
+    "args": [
+    "--from",
+    "git+https://github.com/mekalem/chess-mcp.git",
+    "chess"
+    ]
+}
 
-## MCP Client Build Multi MCP Server 
+```
