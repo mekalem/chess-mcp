@@ -80,7 +80,7 @@ in our .toml file, since we built the chess scrip, we don't have to specifiy ser
 6. Install
 ``` json
 "Chess Server": {
-"command": "uv",
+"command": "uvx",
     "args": [
     "--from",
     "git+https://github.com/mekalem/chess-mcp.git",
